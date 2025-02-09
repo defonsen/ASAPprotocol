@@ -1,0 +1,15 @@
+/* global.css */
+@keyframes twinkle {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+  
+  .animate-twinkle {
+    animation: twinkle 3s infinite;
+  }
+  
+  .animate-twinkle-delayed {
+    animation: twinkle 3s infinite;
+    animation-delay: 1s;
+  }
+  
